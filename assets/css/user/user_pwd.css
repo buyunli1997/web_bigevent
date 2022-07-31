@@ -1,0 +1,19 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(240, 242, 245);
+    margin: 15px;
+}
+
+.layui-form {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.layui-input {
+    width: 500px
+}

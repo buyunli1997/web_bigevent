@@ -27,15 +27,15 @@ function getUserInfo() {
             renderAvatar(res.data)
         },
         //不论登陆成功或者失败，都会调用complete函数
-        complete: function (res) {
-            /* console.log('执行了complete回调函数');
-            console.log(res) */
+        /* complete: function (res) {
+            console.log('执行了complete回调函数');
+            console.log(res)
             if (res.responseJSON.status === 1 && res.responseJSON.message === '身份认证失败！') {
 
                 localStorage.removeItem('token')
                 location.href = '/login.html'
             }
-        }
+        }  */
     })
 }
 
